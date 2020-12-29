@@ -20,15 +20,15 @@
         <p>Tolong dengan sangat membuka rootnya</p>
         <p class="lead">
             <a class="btn btn-primary btn-lg" href="modul1_L2001836161_X/" role="button">Modul 1</a>
-            <a class="btn btn-primary btn-lg" href="modul2_L2001836161_X/" role="button">Modul 2</a>
-            <a class="btn btn-primary btn-lg" href="modul3_L2001836161_X/" role="button">Modul 3</a>
-            <a class="btn btn-primary btn-lg" href="modul4_L2001836161_X/" role="button">Modul 4</a>
-            <a class="btn btn-primary btn-lg" href="modul5_L2001836161_X/" role="button">Modul 5</a>
-            <a class="btn btn-primary btn-lg" href="modul6_L2001836161_X/" role="button">Modul 6</a>
-            <a class="btn btn-primary btn-lg" href="modul7_L2001836161_X/" role="button">Modul 7</a>
-            <a class="btn btn-primary btn-lg" href="modul8_L2001836161_X/" role="button">Modul 8</a>
-            <a class="btn btn-primary btn-lg" href="modul9_L2001836161_X/" role="button">Modul 9</a>
-            <a class="btn btn-primary btn-lg" href="modul10_L2001836161_X/" role="button">Modul 10</a>
+            <a class="btn btn-primary btn-lg" href="modul2_L200183161_X/" role="button">Modul 2</a>
+            <a class="btn btn-primary btn-lg" href="modul3_L200183161_X/" role="button">Modul 3</a>
+            <a class="btn btn-primary btn-lg" href="modul4_L200183161_X/" role="button">Modul 4</a>
+            <a class="btn btn-primary btn-lg" href="modul5_L200183161_X/" role="button">Modul 5</a>
+            <a class="btn btn-primary btn-lg" href="modul6_L200183161_X/" role="button">Modul 6</a>
+            <a class="btn btn-primary btn-lg" href="modul7_L200183161_X/" role="button">Modul 7</a>
+            <a class="btn btn-primary btn-lg" href="modul8_L200183161_X/" role="button">Modul 8</a>
+            <a class="btn btn-primary btn-lg" href="modul9_L200183161_X/" role="button">Modul 9</a>
+            <a class="btn btn-primary btn-lg" href="modul10_l200183161_X/" role="button">Modul 10</a>
             <a class="btn btn-primary btn-lg" href="Quiz/" role="button">Quiz</a>
             <a class="btn btn-primary btn-lg" href="UTS/" role="button">UTS</a>
         </p>
