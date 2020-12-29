@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugasssss</title>
+    <script>
+        function check() {
+            nilai = document.myform.nilai.value;
+
+            if (nilai >= 0 && nilai <= 20) {
+                alert('Nilai E');
+                document.myform.hasil.value = 'E';
+            } else if (nilai >= 21 && nilai <= 40) {
+                alert('Nilai D');
+                document.myform.hasil.value = 'D';
+            } else if (nilai >= 41 && nilai <= 60) {
+                alert('Nilai C');
+                document.myform.hasil.value = 'C';
+            } else if (nilai >= 61 && nilai <= 80) {
+                alert('Nilai B');
+                document.myform.hasil.value = 'B';
+            } else if (nilai >= 81 && nilai <= 100) {
+                alert('Nilai A');
+                document.myform.hasil.value = 'A';
+            } else {
+                alert('Error');
+                document.myform.hasil.value = 'ERROR';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <center>
+            <h2>Pengecekan Sederhana</h2>
+            <form name="myform">
+                <label for="nilai">Nilai :</label>
+                <input type="text" name="nilai" id="nilai" required maxlength="3">
+                <button type='submit' name='hitung' onclick='check()'>Hitung Nilai</button>
+            </form>
+        </center>
+    </body>
+
+</html>
