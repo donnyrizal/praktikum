@@ -19,7 +19,7 @@
         <hr class="my-2">
         <p>Tolong dengan sangat membuka rootnya</p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="modul1_L2001836161_X/" role="button">Modul 1</a>
+            <a class="btn btn-primary btn-lg" href="modul1_L2001836161_X/tugas1.html" role="button">Modul 1</a>
             <a class="btn btn-primary btn-lg" href="modul2_L200183161_X/" role="button">Modul 2</a>
             <a class="btn btn-primary btn-lg" href="modul3_L200183161_X/" role="button">Modul 3</a>
             <a class="btn btn-primary btn-lg" href="modul4_L200183161_X/" role="button">Modul 4</a>
