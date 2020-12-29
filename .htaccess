@@ -1,17 +1,18 @@
-# access here, or in any related virtual host.
-<Directory />
-    Options FollowSymLinks
-    AllowOverride All
-    Require all denied
- </Directory>
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
 
- <Directory /usr/share>
-    AllowOverride None
-    Require all granted
- </Directory>
+    RewriteEngine On
 
- <Directory /var/www/>
-    Options Indexes FollowSymLinks
-    AllowOverride all
-    Require all granted
- </Directory>
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteC
